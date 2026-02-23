@@ -23,7 +23,7 @@ export function BriefingPage({ selectedRole, onSelectRole, onStartMission, aiMes
           </div>
           <div className="text-left">
             <h1 className="font-orbitron text-xl md:text-2xl lg:text-4xl font-bold text-foreground">
-              MISSION CONTROL
+              AI ROCKET PROPULSION ENGINEER
             </h1>
             <p className="font-orbitron text-xs md:text-sm lg:text-base text-primary tracking-[0.2em] md:tracking-[0.3em]">
               LAUNCH AUTHORITY
