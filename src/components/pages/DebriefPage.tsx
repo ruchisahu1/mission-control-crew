@@ -11,7 +11,8 @@ import {
   TrendingUp,
   Shield,
   Users,
-  Package
+  Package,
+  Home
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -189,6 +190,11 @@ export function DebriefPage({ state, onRetry }: DebriefPageProps) {
           <button className="btn-control flex items-center justify-center gap-2 bg-gradient-to-r from-info to-info/80 border-info/80">
             <Rocket className="w-5 h-5" />
             ADVANCED MISSION
+          </button>
+          <button onClick={() => window.location.href = "https://missionx.junkbot.co/user/gamified"}
+              className="btn-control flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary/80 border-primary/80">
+            <Home className="w-5 h-5" />
+            HOME
           </button>
         </div>
       </div>
